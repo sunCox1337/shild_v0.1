@@ -41,12 +41,13 @@ void setKeyState1() {
     digitalWrite(34, OFF);
     digitalWrite(36, OFF);
     }
-		
+
 void setup()
 {  
     // disable Ethernet chip
     pinMode(10, OUTPUT);
-    digitalWrite(11, HIGH);   
+    digitalWrite(11, HIGH);  
+		setKeyState1();// Начальное положение PIN-оф. 
     // Пины статусов
     pinMode(39, INPUT_PULLUP);
     pinMode(41, INPUT_PULLUP);
