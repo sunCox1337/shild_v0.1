@@ -22,6 +22,26 @@ char HTTP_req[REQ_BUF_SZ] = { 0 };  // buffered HTTP request stored as null term
 char req_index = 0;                 // index into HTTP_req buffer
 boolean LED_state[13] = { 0 };       // stores the states of the LED
 
+// Начальное положение пинов реле
+void setKeyState1() {
+    digitalWrite(23, OFF);
+    digitalWrite(25, OFF);
+    digitalWrite(27, OFF);
+    digitalWrite(29, OFF);
+    digitalWrite(31, OFF);
+    digitalWrite(33, OFF);
+    digitalWrite(35, OFF);
+    digitalWrite(37, OFF);
+    digitalWrite(22, OFF);
+    digitalWrite(24, OFF);
+    digitalWrite(26, OFF);
+    digitalWrite(28, OFF);
+    digitalWrite(30, OFF);
+    digitalWrite(32, OFF);
+    digitalWrite(34, OFF);
+    digitalWrite(36, OFF);
+    }
+		
 void setup()
 {  
     // disable Ethernet chip
@@ -94,25 +114,7 @@ void setup()
     server.begin();           // start to listen for clients
 } //END SETUP
 
-// Начальное положение пинов реле
-void setKeyState1() {
-    digitalWrite(23, OFF);
-    digitalWrite(25, OFF);
-    digitalWrite(27, OFF);
-    digitalWrite(29, OFF);
-    digitalWrite(31, OFF);
-    digitalWrite(33, OFF);
-    digitalWrite(35, OFF);
-    digitalWrite(37, OFF);
-    digitalWrite(22, OFF);
-    digitalWrite(24, OFF);
-    digitalWrite(26, OFF);
-    digitalWrite(28, OFF);
-    digitalWrite(30, OFF);
-    digitalWrite(32, OFF);
-    digitalWrite(34, OFF);
-    digitalWrite(36, OFF);
-    }
+
 void writeSdLog(){ //Функция записи логов при нажатии на кнопку
   // открываем файл. Примечание: только один файл может быть открыт в один момент времени 
   // поэтому вам необходимо закрыть этот файл перед тем как открывать следующий
