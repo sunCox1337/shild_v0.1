@@ -10,13 +10,18 @@
             "includePath": [
                 "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/include",
                 "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/src",
+                "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/EmonLib",
+                "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/RTClib",
+                "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/SD/src",
+                "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/Ethernet/src",
+                "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "/Users/suncox/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "/Users/suncox/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/TinyWireM",
                 "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -24,13 +29,18 @@
                 "path": [
                     "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/include",
                     "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/src",
+                    "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/EmonLib",
+                    "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/RTClib",
+                    "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/SD/src",
+                    "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/Ethernet/src",
+                    "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "/Users/suncox/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "/Users/suncox/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/Users/suncox/Documents/PlatformIO/Projects/shild_v0.1/.pio/libdeps/megaatmega2560/TinyWireM",
                     "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                    "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "/Users/suncox/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },
