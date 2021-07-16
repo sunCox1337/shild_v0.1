@@ -20,7 +20,7 @@ EthernetServer server(80);          // create a server at port 80
 File webFile;                       // the web page file on the SD card
 char HTTP_req[REQ_BUF_SZ] = { 0 };  // buffered HTTP request stored as null terminated string
 char req_index = 0;                 // index into HTTP_req buffer
-boolean LED_state[13] = { 0 };       // stores the states of the LEDs
+boolean LED_state[13] = { 0 };       // stores the states of the LED
 
 void setup()
 {  
